@@ -12,10 +12,8 @@ Clone repository
 Install dependencies
 Run server
 Contributors
-John Doe: Backend development
-Jane Smith: Frontend development
+karan Pashte: Frontend development
+Vishal Kaira: AIML development
 Future Enhancements
-Sentiment analysis
-Dashboard integration
 Feedback
 We welcome your feedback and suggestions. Thank you for using UrbanNest Furniture Chatbot!
