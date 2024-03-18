@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/material'
 import React from 'react'
-import shortdata from '../constant/data'
+import {shortdata} from '../constant/data'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -16,7 +16,7 @@ export default function Product() {
          <Typography>New in Store</Typography>
          <Typography>See All </Typography>
        </Box>
-       <Box display="flex" justifyContent="center" flexWrap="wrap" gap="2rem" >
+       <Box display="flex" justifyContent="center" flexWrap="wrap" padding="2rem" gap="2rem" >
          {
             shortdata.map((item)=>{
                 return(

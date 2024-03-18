@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material'
 import homebg from '../images/homebg.jpg'
 export default function Home() {
   return (
-    <Box sx={{backgroundImage:`url(${homebg})`,height:"100vh",width:"100vw",backgroundSize:"cover"}} >
+    <Box marginTop="-5rem" sx={{backgroundImage:`url(${homebg})`,height:"100vh",width:"100vw",backgroundSize:"cover"}} >
       <Navbar/>
       <Box display="flex" justifyContent="center"  marginTop="6rem" >
         <Box width="45vw" color="white" display="flex" flexDirection="column" justifyContent="center">
@@ -18,6 +18,7 @@ export default function Home() {
             </Box>
         </Box>
       </Box>
+
     </Box>
   )
 }
